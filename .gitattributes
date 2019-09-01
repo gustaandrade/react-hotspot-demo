@@ -1,0 +1,6 @@
+# This .gitattribute file tells Linguist to ignore all files on the project, 
+# then only search for Javascript files. Since this is a React project,
+# the main language should be Javascript, and not HTML.
+
+* linguist-vendored
+*.js linguist-vendored=false
