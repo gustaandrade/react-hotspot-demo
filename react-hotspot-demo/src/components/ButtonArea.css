@@ -1,0 +1,19 @@
+div.main-button-content {
+    height: 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.main-button-content button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #fafafa;
+
+    background-color: #12c1c7;
+    height: 50px;
+    width: 200px;
+    border: 0;
+    border-radius: 25px;
+}

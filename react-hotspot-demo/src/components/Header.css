@@ -1,0 +1,28 @@
+header#main-header {
+    background: #fff;
+    height: 72px;
+    border-bottom: 1px solid #ddd;
+}
+
+header#main-header .header-content{
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    height: 72px;
+    padding: 0 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header#main-header .header-content img {
+    max-height: 60%;
+}
+
+header#main-header .header-content a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #B0B0B0;
+    text-decoration: none;
+}

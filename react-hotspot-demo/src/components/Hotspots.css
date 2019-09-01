@@ -1,0 +1,32 @@
+div.hotspots-content {
+    height: 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.hotspots-content #hotspots {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #808080;
+
+    padding: 0 20px;
+    height: 200px;
+    width: 400px;
+}
+
+div.hotspots-content #hotspots td {
+    padding: 0 10px;
+}
+
+div.hotspots-content #hotspots th {
+    background-color: #E0E0E0;
+
+    padding: 0 10px;
+    text-align: left;
+}
+
+div.hotspots-content #hotspots td:nth-child(even) {
+    text-align: right;
+}
