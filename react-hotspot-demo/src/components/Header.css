@@ -26,3 +26,17 @@ header#main-header .header-content a {
     color: #B0B0B0;
     text-decoration: none;
 }
+
+header#main-header .header-content div {
+    padding: 10px;
+}
+
+.hoveredElement {
+    background-color: rgba(245,147,150,0.3);
+    border: red 3px solid;
+}
+
+.unhoveredElement {
+    background-color: transparent;
+    border: none;
+}

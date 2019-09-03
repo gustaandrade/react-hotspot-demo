@@ -1,11 +1,19 @@
 import React from 'react';
 
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
+
 import './ButtonArea.css';
 
-const ButtonArea = () => (
+import * as Actions from '../store/actions/actions';
+
+const ButtonArea = ({ hotspots, toggleHotspotMarking }) => (
     <div className="main-button-content">
-        <button>Create Hotspot</button>
+        <button onClick={() => toggleHotspotMarking()}>Create Hotspot</button>
     </div>
 );
 
-export default ButtonArea;
+const mapStateToProps = state => ({ hotspots: state.hotspots });
+const mapDispatchToProps = dispatch => bindActionCreators(Actions, dispatch);
+
+export default connect(mapStateToProps, mapDispatchToProps)(ButtonArea);

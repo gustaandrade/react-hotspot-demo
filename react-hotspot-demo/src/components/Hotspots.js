@@ -27,7 +27,7 @@ const Hotspots = ({ hotspots, setHotspotOff }) => (
     </div>
 );
 
-const mapStateToProps = state => ({ hotspots: state.hotspots });
+const mapStateToProps = state => ({ hotspots: state.activeHotspots });
 const mapDispatchToProps = dispatch => bindActionCreators(Actions, dispatch);
 
 export default connect(mapStateToProps, mapDispatchToProps)(Hotspots);

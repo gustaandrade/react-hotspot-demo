@@ -11,3 +11,23 @@ export function setHotspotOff(hotspot) {
         hotspot
     };
 }
+
+export function turnHotspotAreaOn(hotspot) {
+    return {
+        type: 'TURN_HOTSPOT_AREA_ON',
+        hotspot
+    };
+}
+
+export function turnHotspotAreaOff(hotspot) {
+    return {
+        type: 'TURN_HOTSPOT_AREA_OFF',
+        hotspot
+    };
+}
+
+export function toggleHotspotMarking() {
+    return {
+        type: 'TOGGLE_HOTSPOT_MARKING'
+    };
+}
